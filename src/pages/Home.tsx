@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-800 via-primary-700 to-sky-600 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-primary-800 via-primary-700 to-sky-600 text-primary-100 overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute inset-0">
           <img 
@@ -77,7 +77,7 @@ export default function Home() {
           />
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+        <div className="relative   max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
               {t('home.title')}
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="animate-slide-up">
+          <div className="animate-slide-up text-primary-900">
             <FlightSearchForm />
           </div>
         </div>
